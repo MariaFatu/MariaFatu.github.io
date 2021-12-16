@@ -11,10 +11,6 @@ body{
 a{
     text-decoration: none;
 }
-#logo{
-    width:40px;
-	height:40px;
-}
 
 #vl-maindiv{
     height: 115.67vh;
@@ -135,21 +131,6 @@ a{
     opacity: 1;
     transform: scale(1.2);
 }
-
-
-
-#grid{
-    width:100%;
-    padding:0 4vw;
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:flex;
-    -webkit-box-pack:justify;
-    -webkit-justify-content:space-between;
-    justify-content:space-between;
-    margin-bottom:14vw
-}
-
 
 #footer{
     position: absolute;
