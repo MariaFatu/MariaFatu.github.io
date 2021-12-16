@@ -1,0 +1,159 @@
+html{
+    position:relative;
+	scroll-behavior: smooth;
+    min-height: 100%;
+}
+body{
+    margin-bottom: 20%;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+#logo{
+    width:40px;
+	height:40px;
+}
+
+#vl-maindiv{
+    height: 115.67vh;
+	background-image: url("home.jpg");
+	text-align:center;
+	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#vl-title{
+    position: absolute;
+	margin-top: 18%;
+	color:white;
+	font-size: 7em; 
+	text-align: center;
+	width: 100%;
+}
+
+#photoCarousel .carousel-inner .carousel-item a img, .carousel-img{
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel-inner .carousel-item a > img, .carousel-img{
+    -webkit-animation: thing 10s;
+    -o-animation: thing 10s;
+    animation: thing 10s;
+}
+
+@keyframes thing {
+    from{
+        transform: scale(1, 1);
+    }
+    to{
+        transform: scale(1.5, 1.5);
+    }
+}
+
+.carousel-img-1{
+    height: 115.67vh;
+	background-image: url("ceata-2.jpg");
+	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.carousel-img-3{
+    height: 115.67vh;
+	background-image: url("home.jpg");
+	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.carousel-img-2{
+    height: 115.67vh;
+	background-image: url("PoianaBrasov.jpg");
+	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.viv {
+    position: absolute;
+    font-family: HelveticaNowText,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    bottom: 55%;
+    left: 70%;
+    z-index: 20;
+    color: white;
+}
+.dev, .mf{
+    position: absolute;
+    font-family: HelveticaNowText,Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    bottom: 28%;
+    left: 8%;
+    z-index: 20;
+    color: white;
+}
+#work-maindiv{
+    position: absolute;
+    display: block;
+    height: 115.67vh;
+	background-image: url("PoianaBrasov.jpg");
+	background-attachment: fixed;
+ 	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;text-align:center;
+  	background-repeat: repeat;
+}
+
+#work-title{
+    position: absolute;
+    font-family: HelveticaNowText,Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    bottom: 30%;
+    left: 12%;
+    z-index: 20;
+    color: white;
+}
+
+.card-columns{
+    margin-top: 10%;
+}
+.card-columns .card{
+    opacity: 0.7;
+    transition: 0.3s;
+    transition: transform 0.3s;
+    color:#829089;
+}
+.card-columns .card:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+
+#grid{
+    width:100%;
+    padding:0 4vw;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    justify-content:space-between;
+    margin-bottom:14vw
+}
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#465f3d
+}
